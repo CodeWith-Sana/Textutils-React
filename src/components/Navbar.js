@@ -15,11 +15,13 @@ import { Link } from 'react-router-dom';
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/" style={{color:'white'}}>Home</Link>
+          {/* <Link className="nav-link active" aria-current="page" to="/" style={{color:'white'}}>Home</Link> */}
+          <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}>Home</a>
          
         </li><li className="nav-item">
           {/* <a className="nav-link active" aria-current="page" href="/">About</a>  */}
-          <Link className="nav-link active" aria-current="page" to="/About"  style={{color:'white'}}>{props.abouttext}</Link>
+          {/* <Link className="nav-link active" aria-current="page" to="/About"  style={{color:'white'}}>{props.abouttext}</Link> */}
+         
         </li>
     
       </ul>
